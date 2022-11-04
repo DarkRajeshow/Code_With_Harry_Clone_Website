@@ -1,0 +1,413 @@
+body {
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    position: flex;
+    z-index: 1;
+}
+
+i {
+    cursor: pointer;
+}
+
+a:hover {
+    margin-top: -2px;
+}
+
+/* NavBar section 0 */
+
+#nav1 {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    padding: 20px 60px;
+    z-index: 100;
+    box-shadow: 0 0 10px 0px gray;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.navbut {
+    margin: 0px 10px 0px 30px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.1em;
+}
+
+.navbar-brand {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 0px 20px 0 -20px;
+    padding: 5px 10px;
+    background-color: #3a3a3a;
+}
+
+.navbar-brand:hover {
+    animation: spaceboots .8s infinite linear;
+    background-color: black;
+    margin-top: 0%;
+}
+
+
+
+/* Secion 1- Title Page */
+
+.title {
+    position: relative;
+    height: 430px;
+    padding: -10px;
+    color: white;
+    font-weight: 500;
+}
+
+.img1>img {
+    z-index: -0.4;
+    transform: rotate(-7deg);
+    display: flex;
+    background-position: left;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+    top: -40px;
+    left: -40px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.img1>img:hover{
+    opacity: 0.9;
+    transition: 1s;
+}
+.text1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.text1>p {
+    text-align: center;
+    margin: 20px 70px;
+
+}
+
+.row2 {
+    background-color: black;
+}    
+
+.btn1 {
+    width: 140px;
+}    
+
+
+/* section 2- recommended courses */
+#Recommended-Courses {
+    box-shadow: 0 0 16px 0 gray;
+    width: 101%;
+    padding-bottom: 100px;
+    padding-top: 7%;
+    background-color: white;
+    position: relative;
+}
+
+.card-body>button {
+    bottom: 40px;
+    width: 50%;
+    left: 25%;
+}
+
+.card {
+    padding: 0%;
+    margin: 8%;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 0 18px 0px #cfc9c9;
+    cursor: pointer;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.row3 {
+    width: 90%;
+    margin: auto;
+}
+
+.card-header {
+    padding: 0%;
+}
+
+.card-body>h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-body>p {
+    font-size: 0.9rem;
+    /* font-weight: 600; */
+}
+
+.card-body>span {
+    font-size: 0.9rem;
+    color: #8d908d;
+    font-weight: 500;
+}
+
+.img {
+    margin: 0%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: scale(1);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.sign {
+    margin-top: 20px;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    color: #d300f1;
+    background-color: #fff8ec;
+    border: none;
+    width: 40% !important;
+}
+
+.sign:hover {
+    color: black;
+    background-color: #fff8ec;
+}
+
+.mans {
+    margin: 4%;
+    text-align: left;
+    /* font-size: 1.2rem; */
+    padding: 2% 7%;
+    border-radius: 10px;
+    background-color: #f2f1f0;
+}
+
+.mans:hover {
+    box-shadow: 0 0 18px 0 rgb(196, 189, 189);
+    transition: 0.5s;
+    margin-top: 17px;
+}
+
+i {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+#testimonials-heading {
+    font-weight: 900;
+    margin: 150px 0 40px;
+}
+
+.testimonials {
+    margin: 0%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.btn1 {
+    cursor: pointer;
+}
+
+
+.flex,
+.flex2 {
+    display: flex;
+    padding: 0%;
+    margin: 10px;
+}
+
+.flex {
+    width: 100%;
+}
+
+.ids {
+    position: relative;
+    align-self: center;
+}
+
+#flex {
+    margin: 2% 1%;
+}
+
+.ids>i {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+#flex>div {
+    padding: 0 30px;
+    align-self: center;
+}
+
+#flex>div>* {
+    margin-bottom: 0;
+}
+
+#flex>div>img {
+    height: 60px;
+    margin-right: -50px;
+    cursor: pointer;
+}
+
+#flex>div>img:hover{
+    transform: scale(1.1);
+    position: flex;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+#flex>div>h2 {
+    font-size: 20px;
+    font-weight: 700;
+    /* padding-right: 55px; */
+}
+
+#h2 {
+    border-right: 2px solid gray;
+    margin: 0%;
+}
+
+.footer {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+/* bottom end line */
+hr {
+    margin-top: 0%;
+    padding-top: 0%;
+    border-style: none;
+    border-top-style: dotted;
+    size: 3px;
+    font-size: 2rem;
+    border-width: 10px;
+    width: 5%;
+    cursor: pointer;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.row3>.col-lg-4:hover{
+    margin-top: -7px;
+    transition: 0.5s;
+}
+
+/* media style for screen width 1080px to 878px and exception..  */
+@media (max-width: 1080px) {
+    .navbut {
+        margin: 10px 10px 10px 30px;
+    }
+
+    #recommended-courses {
+        padding: 3%;
+    }
+
+    h2 {
+        margin: 9px 20px;
+        text-align: center;
+    }
+
+    .text1 {
+        background-color: white;
+        color: black;
+        margin: auto;
+    }
+
+    #title {
+        margin: 0 90px;
+    }
+
+    .text1>p {
+        margin: 20px 20px;
+        color: #848383;
+    }
+
+    .row2 {
+        padding-top: 100px;
+        background-color: white;
+    }
+
+    .img1 {
+        margin: 0%;
+        padding: 0%;
+        height: 0;
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        /* background-color: rgb(112, 93, 93); */
+        color: rgb(112, 93, 93);
+        border-radius: 50%;
+        width: auto;
+        height: auto;
+    }
+
+}
+
+/* media style for screen width below 878px..  */
+@media (max-width: 878px) {
+    .row2 {
+        padding-top: 30px;
+        background-color: white;
+    }
+
+    #footer {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    #flex>div>* {
+        font-size: 0.7em;
+    }
+
+    .navbar-brand {
+        width: 35%;
+        font-size: 0.6em;
+    }
+
+    #nav1 {
+        padding: 20px;
+    }
+
+    .flex,
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #flex>div>img {
+        margin: auto;
+        margin-right: 0px;
+    }
+
+    #flex>div>h2 {
+        font-size: 0.8em;
+    }
+
+    #h2 {
+        padding: 0%;
+        margin: auto;
+        border-right: none;
+
+    }
+
+}
